@@ -32,7 +32,14 @@ ul {
   font-size: 0.7rem;
   padding: 0.4rem 1rem;
   color: white;
+}
+
+.backlog {
   background-color: orange;
+}
+
+.in_progress {
+  background-color: blueviolet;
 }
 
 .completed {

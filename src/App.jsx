@@ -20,7 +20,7 @@ function App() {
                 <li key={index}>
                   <div className="task-title">
                     <p><strong>{curTask.title}</strong></p>
-                    <span className="status">{curTask.state}</span>
+                    <span className={`status ${curTask.state}`}>{curTask.state}</span>
                   </div>
                   <p>Priority: {curTask.priority}</p>
                   <p>Est. time {curTask.estimatedTime}</p>
@@ -49,11 +49,7 @@ function App() {
             })
           }
         </ul>
-      </main>
-      
-  
-      
-
+      </main>   
     </>
   )
 }
